@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-image: url("https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/10_2019/CKTG/Worlds-2019-Orchestral-Theme-Article-Banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.list-Champion {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.champion {
+  height: 300px;
+}
+.champion:hover {
+  transform: scaleX(1.05) scaleY(1.05);
+}
+
+.name {
+  text-transform: uppercase;
+  color: rgb(183, 158, 112);
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 270px;
+  height: 30px;
+}
+.name:hover {
+  cursor: pointer;
+}
+.name a {
+  text-decoration: none;
+  color: rgb(183, 158, 112);
+  font-size: 18px;
+}
+.form {
+  margin-top: 50px;
+}
+.form input {
+  border-radius: 15px;
+  width: 45%;
+  height: 30px;
+  font-size: 20px;
+}
